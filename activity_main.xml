@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="211dp"
+                android:layout_height="77dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="31dp"
+                android:src="@drawable/artgallaery" />
+
+            <ImageView
+                android:layout_width="375dp"
+                android:layout_height="329dp"
+                android:src="@drawable/grp" />
+
+            <TextView
+                android:layout_width="289dp"
+                android:layout_height="79dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="50dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="48dp"
+                android:background="@drawable/curvebtn"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                app:icon="@drawable/arrow"
+                android:id="@+id/reg_btn"
+                android:text="register" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/Widget.AppCompat.TextView"
+                android:layout_width="200dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="190dp"
+
+
+                android:layout_marginTop="-40dp"
+                android:text="me as a collector"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="11dp"
+                android:layout_marginLeft="103dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/bluearrow" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="-20dp"
+                android:text="track my application"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="94dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/person" />
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="86dp"
+                android:layout_marginLeft="37dp"
+                android:text="lorem ipsum is used"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="189dp"
+                android:layout_marginLeft="37dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/batery" />
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="37dp"
+                android:text="lorem ipsum is used"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="289dp"
+                android:layout_height="189dp"
+                android:layout_marginLeft="37dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+            <ImageView
+                android:layout_width="76dp"
+                android:layout_height="79dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/virus" />
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="36dp"
+                android:text="lorem ipsum is used"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="230dp"
+                android:layout_marginLeft="36dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="77dp"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/wifi" />
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="36dp"
+                android:text="lorem ipsum is used"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="230dp"
+                android:layout_marginLeft="36dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+            <ImageView
+                android:layout_width="83dp"
+                android:layout_height="79dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/star" />
+
+            <TextView
+                android:layout_width="235dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="39dp"
+                android:text="lorem ipsum is used"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="189dp"
+                android:layout_marginLeft="39dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+            <ImageView
+                android:layout_width="74dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/book" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="37dp"
+                android:text="lorem ipsum is used"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="289dp"
+                android:layout_height="243dp"
+                android:layout_marginLeft="37dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="69dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/flag" />
+
+            <TextView
+                android:layout_width="234dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="37dp"
+                android:text="lorem ipsum is used"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="230dp"
+                android:layout_marginLeft="37dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="78dp"
+                android:layout_marginLeft="51dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/bom" />
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="39dp"
+                android:text="lorem ipsum is used"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="289dp"
+                android:layout_height="230dp"
+                android:layout_marginLeft="39dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+            <ImageView
+                android:layout_width="33dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/fb" />
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-30dp"
+                android:src="@drawable/insta" />
+            <View
+                android:layout_width="321dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="40dp"
+                android:layout_height="2dp"
+                android:background="#D3C3C3"/>
+
+            <ImageView
+                android:layout_width="254dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/artglry" />
+
+
+            <TextView
+                android:layout_width="89dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="18dp"
+                android:text="About Us."
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="89dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="18dp"
+                android:textStyle="bold"
+
+
+                android:text="Team."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="89dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="18dp"
+                android:textStyle="bold"
+
+                android:text=" Reach us."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_width="89dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="209dp"
+                android:layout_marginTop="-190dp"
+                android:text="Affiliattions."
+                android:textStyle="bold"
+
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="89dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="209dp"
+                android:layout_marginTop="18dp"
+                android:textStyle="bold"
+
+
+                android:text="Disclaimers."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="209dp"
+                android:layout_marginTop="18dp"
+                android:text=" Privacy Policy."
+                android:textStyle="bold"
+
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <View
+                android:layout_width="321dp"
+                android:layout_marginLeft="40dp"
+                android:layout_height="2dp"
+                android:background="#D3C3C3"/>
+
+
+            <ImageView
+                android:layout_width="23.9dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="97dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/cpright" />
+
+
+            <TextView
+                android:layout_width="152dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="-20dp"
+                android:text=" Content Copyright reserved."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
